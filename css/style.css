@@ -1,0 +1,65 @@
+html {
+  text-align: center;
+}
+
+body,
+div,
+h2,
+ul,
+li,
+img,
+form,
+span {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: none;
+}
+.container {
+  padding: 30px;
+}
+
+h2 {
+  color: green;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.task {
+  font-size: 30px;
+  color: red;
+  padding-bottom: 15px;
+}
+
+.picture {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 300px;
+  height: 180px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#text {
+}
